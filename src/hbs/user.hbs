@@ -1,0 +1,13 @@
+<h1>Random User Generator</h1>
+<div id="btn">
+  <button id="rnd-user">Random User</button>
+</div>
+{{#each results}}
+  <div id="pic">
+    <img src="{{picture.large}}" />
+  </div>
+  <div id="name">{{name.first}} {{name.last}}</div>
+  <div id="gender">{{gender}}</div>
+  <div id="email">{{email}}</div>
+  <div id="phone">{{phone}}</div>
+{{/each}}

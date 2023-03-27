@@ -1,0 +1,30 @@
+h1 {
+  color: white;
+  background-color: black;
+  text-align: center;
+}
+body {
+  background-color: aquamarine;
+}
+#rnd-user {
+  margin: 10%;
+}
+#btn {
+  text-align: center;
+}
+#pic {
+  text-align: center;
+  justify-content: center;
+  justify-items: center;
+}
+img {
+  border: 2px cornflowerblue solid;
+}
+#name,
+#gender,
+#email,
+#phone {
+  text-align: center;
+  margin: 1%;
+  color: darkgreen;
+}
